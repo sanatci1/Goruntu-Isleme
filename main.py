@@ -2,7 +2,7 @@ import cv2
 import matplotlib.pyplot as plt
 
 # 1. Görüntüyü yükle
-image_path = "C:/Users\Karaimha/Kabadayilar-Tarihi-Kitap-Onerisi.jpg"  # Dosya adını buraya yaz
+image_path = "C:/Users\Karaimha/ornek.jpg"  # Dosya adını buraya yaz
 img = cv2.imread(image_path, cv2.IMREAD_COLOR)
 
 if img is None:
