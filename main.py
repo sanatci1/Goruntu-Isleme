@@ -6,7 +6,7 @@ image_path = "C:/Users\kullanıcı_ismi/ornek.jpg"  # Dosya adını buraya yaz
 img = cv2.imread(image_path, cv2.IMREAD_COLOR)
 
 if img is None:
-    print(f"❌ Görüntü yüklenemedi: {image_path}")
+    print(f" Görüntü yüklenemedi: {image_path}")
     exit()
 
 # 2. Temel bilgileri yazdır
